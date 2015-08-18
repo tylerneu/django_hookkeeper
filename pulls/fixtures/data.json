@@ -1,0 +1,110 @@
+[
+{
+  "fields": {
+    "name": "Cornfield Cruiser"
+  },
+  "model": "pulls.tractor",
+  "pk": 1
+},
+{
+  "fields": {
+    "name": "Full Tilt"
+  },
+  "model": "pulls.tractor",
+  "pk": 2
+},
+{
+  "fields": {
+    "name": "Hang em High"
+  },
+  "model": "pulls.tractor",
+  "pk": 3
+},
+{
+  "fields": {
+    "name": "Full Bore"
+  },
+  "model": "pulls.tractor",
+  "pk": 4
+},
+{
+  "fields": {
+    "name": "American Ethanol"
+  },
+  "model": "pulls.tractor",
+  "pk": 5
+},
+{
+  "fields": {
+    "name": "Salt River Savage"
+  },
+  "model": "pulls.tractor",
+  "pk": 6
+},
+{
+  "fields": {
+    "name": "Levee Leaper"
+  },
+  "model": "pulls.tractor",
+  "pk": 7
+},
+{
+  "fields": {
+    "tractors": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "name": "Super Stock",
+    "weight": 1050
+  },
+  "model": "pulls.klass",
+  "pk": 1
+},
+{
+  "fields": {
+    "tractors": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "name": "Super Stock",
+    "weight": 1250
+  },
+  "model": "pulls.klass",
+  "pk": 2
+},
+{
+  "fields": {
+    "date": "2015-08-03",
+    "classes": [
+      1,
+      2
+    ],
+    "name": "Effingham County Fair"
+  },
+  "model": "pulls.pull",
+  "pk": 1
+},
+{
+  "fields": {
+    "date": "2015-08-13",
+    "classes": [],
+    "name": "Illinois State Fair"
+  },
+  "model": "pulls.pull",
+  "pk": 2
+},
+{
+  "fields": {
+    "date": "2015-07-07",
+    "classes": [],
+    "name": "Lions Super Pull"
+  },
+  "model": "pulls.pull",
+  "pk": 3
+}
+]

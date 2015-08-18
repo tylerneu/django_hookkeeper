@@ -9,7 +9,7 @@ class Tractor(models.Model):
     
 class Klass(models.Model):
     name = models.CharField(max_length=100)
-    tractors = models.ManyToManyField(Tractor)
+    # tractors = models.ManyToManyField(Tractor)
     weight = models.IntegerField()
     
     class Meta:

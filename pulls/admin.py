@@ -8,11 +8,7 @@ class KlassAdmin(admin.ModelAdmin):
         (None, {
             'fields': ('weight', 'name',)
         }),
-        (None, {
-            'fields': ('tractors',)
-        })
     )
-    filter_horizontal = ('tractors',)
 
 @admin.register(Pull)
 class PullAdmin(admin.ModelAdmin):
