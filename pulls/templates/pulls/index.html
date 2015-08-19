@@ -1,3 +1,6 @@
+{% extends "pulls/base.html" %}
+
+{% block content %}
 {% if pull_list %}
   <ul>
   {% for pull in pull_list %}
@@ -5,3 +8,4 @@
   {% endfor %}
   </ul>
 {% endif %}
+{% endblock %}

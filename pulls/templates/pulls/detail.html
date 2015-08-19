@@ -1,3 +1,6 @@
+{% extends "pulls/base.html" %}
+
+{% block content %}
 <h1>{{ pull }}</h1>
 
 {% if classes_list %}
@@ -16,3 +19,4 @@
   {% endfor %}
   </ul>
 {% endif %}
+{% endblock  %}
