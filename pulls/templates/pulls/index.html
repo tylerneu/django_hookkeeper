@@ -1,0 +1,7 @@
+{% if pull_list %}
+  <ul>
+  {% for pull in pull_list %}
+  <li><a href="{% url 'pulls:detail' pull.id %}">{{ pull }}</a></li>
+  {% endfor %}
+  </ul>
+{% endif %}

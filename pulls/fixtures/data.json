@@ -1,6 +1,158 @@
 [
 {
   "fields": {
+    "name": "Super Stock Garden Tractors",
+    "weight": 1050
+  },
+  "model": "pulls.klass",
+  "pk": 3
+},
+{
+  "fields": {
+    "name": "Limited Mini Rods",
+    "weight": 1800
+  },
+  "model": "pulls.klass",
+  "pk": 4
+},
+{
+  "fields": {
+    "name": "Mini Rods",
+    "weight": 2000
+  },
+  "model": "pulls.klass",
+  "pk": 5
+},
+{
+  "fields": {
+    "name": "Antique Tractors",
+    "weight": 5500
+  },
+  "model": "pulls.klass",
+  "pk": 6
+},
+{
+  "fields": {
+    "name": "Classic Tractors",
+    "weight": 5500
+  },
+  "model": "pulls.klass",
+  "pk": 7
+},
+{
+  "fields": {
+    "name": "Super Stock Tractors",
+    "weight": 6000
+  },
+  "model": "pulls.klass",
+  "pk": 8
+},
+{
+  "fields": {
+    "name": "Pro Stock Diesel Trucks",
+    "weight": 8000
+  },
+  "model": "pulls.klass",
+  "pk": 9
+},
+{
+  "fields": {
+    "name": "Super Stock Tractors",
+    "weight": 8200
+  },
+  "model": "pulls.klass",
+  "pk": 10
+},
+{
+  "fields": {
+    "name": "Limited Pro Stock",
+    "weight": 8200
+  },
+  "model": "pulls.klass",
+  "pk": 11
+},
+{
+  "fields": {
+    "name": "Super Stock Tractors",
+    "weight": 9700
+  },
+  "model": "pulls.klass",
+  "pk": 12
+},
+{
+  "fields": {
+    "name": "Four Wheel Drive Trucks",
+    "weight": 6200
+  },
+  "model": "pulls.klass",
+  "pk": 13
+},
+{
+  "fields": {
+    "name": "Two Wheel Drive Trucks",
+    "weight": 6200
+  },
+  "model": "pulls.klass",
+  "pk": 14
+},
+{
+  "fields": {
+    "name": "Modified Tractors",
+    "weight": 5800
+  },
+  "model": "pulls.klass",
+  "pk": 15
+},
+{
+  "fields": {
+    "name": "Modified Tractors",
+    "weight": 7700
+  },
+  "model": "pulls.klass",
+  "pk": 16
+},
+{
+  "fields": {
+    "name": "Pro Farm Tractors",
+    "weight": 9500
+  },
+  "model": "pulls.klass",
+  "pk": 17
+},
+{
+  "fields": {
+    "name": "Pro Farm Tractors",
+    "weight": 12000
+  },
+  "model": "pulls.klass",
+  "pk": 18
+},
+{
+  "fields": {
+    "name": "Pro Stock Tractors",
+    "weight": 10000
+  },
+  "model": "pulls.klass",
+  "pk": 19
+},
+{
+  "fields": {
+    "name": "Super Farm Tractors",
+    "weight": 9300
+  },
+  "model": "pulls.klass",
+  "pk": 20
+},
+{
+  "fields": {
+    "name": "Pro Stock Semi",
+    "weight": 20000
+  },
+  "model": "pulls.klass",
+  "pk": 21
+},
+{
+  "fields": {
     "name": "Cornfield Cruiser"
   },
   "model": "pulls.tractor",
@@ -50,40 +202,8 @@
 },
 {
   "fields": {
-    "tractors": [
-      2,
-      3,
-      4,
-      5,
-      6
-    ],
-    "name": "Super Stock",
-    "weight": 1050
-  },
-  "model": "pulls.klass",
-  "pk": 1
-},
-{
-  "fields": {
-    "tractors": [
-      4,
-      5,
-      6,
-      7
-    ],
-    "name": "Super Stock",
-    "weight": 1250
-  },
-  "model": "pulls.klass",
-  "pk": 2
-},
-{
-  "fields": {
     "date": "2015-08-03",
-    "classes": [
-      1,
-      2
-    ],
+    "classes": [],
     "name": "Effingham County Fair"
   },
   "model": "pulls.pull",

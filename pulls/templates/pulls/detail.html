@@ -1,0 +1,18 @@
+<h1>{{ pull }}</h1>
+
+{% if classes_list %}
+  <ul>
+  {% for class in classes_list %}
+    <li>
+      {{ class.class }}
+      {% if class.entries %}
+        <ul>
+          {% for entry in class.entries %}
+          <li>{{ entry }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+{% endif %}

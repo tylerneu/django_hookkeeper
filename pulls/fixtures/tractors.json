@@ -1,0 +1,58 @@
+[
+{
+  "fields": {
+    "name": "Mr. Twister"
+  },
+  "model": "pulls.tractor",
+  "pk": 1
+},
+{
+  "fields": {
+    "name": "Raptor"
+  },
+  "model": "pulls.tractor",
+  "pk": 2
+},
+{
+  "fields": {
+    "name": "Bionic Buzzard"
+  },
+  "model": "pulls.tractor",
+  "pk": 3
+},
+{
+  "fields": {
+    "name": "Rat Poison"
+  },
+  "model": "pulls.tractor",
+  "pk": 4
+},
+{
+  "fields": {
+    "name": "Corn & Soybean Special"
+  },
+  "model": "pulls.tractor",
+  "pk": 5
+},
+{
+  "fields": {
+    "name": "Plumbers Nitemare"
+  },
+  "model": "pulls.tractor",
+  "pk": 6
+},
+{
+  "fields": {
+    "name": "Triple Trouble"
+  },
+  "model": "pulls.tractor",
+  "pk": 7
+},
+{
+  "fields": {
+    "name": "Wild Times"
+  },
+  "model": "pulls.tractor",
+  "pk": 8
+}
+]
